@@ -1,0 +1,104 @@
+//So. This is the first thing that I made with my own code. It's.... it works? I guess? Anyway, this is what I ended up with hahaha
+<body>
+    
+    <div class="font">
+      <h1>Alex's page of interests</h1>
+      <p>The world wants to know: who is alexanderthemeh? Read this page to find out more. </p>
+    </div>
+    <div class="font">
+      <h2>What's your top 5?</h2>
+      <p>Alex was recently asked about his <b>top <em>movies, musicians</em> and <em>places</em></b> he has visited. Here are his answers!</p>
+      <h3>Movies</h3>
+      <ul>
+        <li>Watchmen</li>
+        <img src="https://s3.amazonaws.com/photos.bcheights.com/wp-content/uploads/2019/10/03123252/Watchmen-online.jpg" width="40%"/>
+        <li>Primer</li>
+        <img src="https://www.astronomytrek.com/wp-content/uploads/2014/12/Primer.jpg" width="40%"/>
+        <li>Star Wars</li>
+        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5298bac0-b8bf-4c80-af67-725c1272dbb0/ddiuxg5-98ee994e-dc24-4a21-9767-957cc975d563.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNTI5OGJhYzAtYjhiZi00YzgwLWFmNjctNzI1YzEyNzJkYmIwXC9kZGl1eGc1LTk4ZWU5OTRlLWRjMjQtNGEyMS05NzY3LTk1N2NjOTc1ZDU2My5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.kBwttMizHyeOo_1XrKHiUYLSh0NIKqg0G_lFcAUzNas" width="40%" />
+        <li>I'm actually more of a TV guy...</li>
+      </ul>
+      <h3>Musicians</h3>
+      
+      <table>
+          <tr>
+            <th>Rock</th>
+            <th>Emo</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+          <td><li><a href="https://www.coheedandcambria.com/">Coheed and Cambria</a></li></td>
+          <td><li><a href="https://www.jimmyeatworld.com/">Jimmy Eat World</a></li></td>
+          <td><li><a href="https://www.jasonisbell.com/">Jason Isbell</a></li></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><li><a href="https://en.wikipedia.org/wiki/Boys_Night_Out_(band)">Boys Night Out</a></li></td>
+          <td><li><a href="https://www.drivebytruckers.com/">Drive-by Truckers</li></td>
+      </table>
+      <h3>Places I've visited</h3>
+      <ol>
+        <li class="placeLi">San Fransisco</li>
+        <li class="placeLi">Wales</li>
+        <li class="placeLi">Loch Ness</li>
+        <li class="placeLi">Panama City</li>
+        <li class="placeLi">Vermont</li>
+      </ol>
+      
+    </div>
+    
+</body>
+
+//css file. this is the first time that I ever did any CSS, and it's pretty laughable. But, it's a start!
+body {
+  background-color: #E08AB6;
+}
+h1 {
+  text-align: center;color: rgb(0, 240, 150);
+}
+h2 {
+  text-align: center; color: #8AE0B4;
+}
+p {
+  text-align: center;
+}
+h3 {
+  text-align: center; color: #8AE0B4;
+}
+.placeLi {
+  color : #8AE0B4;
+}
+img {
+  opacity: 1.0;
+}
+img:hover {
+  opacity: 0.5;
+}
+.font {
+  font-family: Roboto;
+}
+table, th, td {
+  border: 1px solid black;
+}
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+table {
+  width: 100%;
+}
+
+th {
+  height: 50px;
+}
+th {
+  text-align: left;
+}
+td {
+  height: 50px;
+  vertical-align: bottom;
+}
+tr:hover {background-color: #f5f5f5;}
